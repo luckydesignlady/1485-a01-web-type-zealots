@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+	font-family: 'Cabin', Arial, sans-serif;
+	color:#00010D
+}
+body {
+	background-color:#CED3F2;
+	}
+	
+header, h1, h2, h3, h4, h5 {
+	font-family: 'Alfa Slab One', serif;
+	color:#384773
+}
+
+blockquote {
+	font-style: italic;
+color: #00010D
+}
+
+dd {
+		font-family: 'Cabin', Arial, sans-serif;
+		color: #00010D;
+}
+
+
+nav {background-color:#000;
+font-family: 'Alfa Slab One', cursive;
+float:center;
+margin: 20px 0px;
+padding: 15px;
+text-align:center
+}
+
+a:link {
+	font-family: 'Alfa Slab One', serif;
+	text-decoration: none;
+	color:#5872A6;
+	}
+	
+a:hover {
+	text-decoration:none;
+	color: #F3C;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #5872A6;
+}
+
+
+header {
+	text-align: center;
+	float: none;
+}
+
+div {
+width:auto ;
+height:auto;
+margin-left: 35px;
+margin-right: 20px;
+margin-bottom: 10px;
+margin-top: 15px;
+}
+
+
+
+	
+article {
+	float:right;
+	width:66%;
+	margin: 40px;
+	}
+
+footer {
+	float: right;
+	color: #384773;
+	margin: 30px;
+	
+}
+
+img {
+	clear: left;
+	padding: 5px;
+}
+
+.clearfix {
+	clear: both;
+	border: none;
+}
