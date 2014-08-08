@@ -5,10 +5,14 @@ p {
 	font-family: 'Cabin', Arial, sans-serif;
 	color:#00010D
 }
+
 body {
 	background-color:#CED3F2;
 	}
-	
+
+#title {text-align: center;
+}
+
 header, h1, h2, h3, h4, h5 {
 	font-family: 'Alfa Slab One', serif;
 	color:#384773
@@ -20,21 +24,19 @@ color: #00010D
 }
 
 dd {
-		font-family: 'Cabin', Arial, sans-serif;
+		font-family: Arial, sans-serif;
 		color: #00010D;
 }
 
-
 nav {background-color:#000;
 font-family: 'Alfa Slab One', cursive;
-float:center;
 margin: 20px 0px;
 padding: 15px;
-text-align:center
+text-align: center;
 }
 
 a:link {
-	font-family: 'Alfa Slab One', serif;
+	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	color:#5872A6;
 	}
@@ -49,35 +51,36 @@ a:visited {
 	color: #5872A6;
 }
 
-
 header {
 	text-align: center;
 	float: none;
 }
 
 div {
-width:auto ;
+width:25% ;
 height:auto;
 margin-left: 35px;
 margin-right: 20px;
 margin-bottom: 10px;
 margin-top: 15px;
+min-width: 50px;
 }
 
-
-
-	
 article {
 	float:right;
 	width:66%;
 	margin: 40px;
+	max-width: 750px;
 	}
 
 footer {
 	float: right;
 	color: #384773;
 	margin: 30px;
-	
+}
+
+.cssvalidates {
+	float: right;
 }
 
 img {
